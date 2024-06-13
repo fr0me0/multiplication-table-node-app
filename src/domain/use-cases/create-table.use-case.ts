@@ -24,4 +24,4 @@ export class CreateTable implements CreateTableUseCase {
 
         return outputMessage;
     }
-}
+};
