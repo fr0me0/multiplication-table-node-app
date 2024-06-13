@@ -20,7 +20,7 @@ export class SaveFile implements SaveFileUseCase {
     execute({
         fileContent,
         fileDestination = 'outputs',
-        fileName = 'table'
+        fileName = 'table',
     }: Options): boolean {
         try {
             fs.mkdirSync(fileDestination, { recursive: true });
