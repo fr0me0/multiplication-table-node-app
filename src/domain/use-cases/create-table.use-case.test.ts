@@ -1,4 +1,4 @@
-import { CreateTable } from '../../../src/domain/use-cases/create-table.use-case';
+import { CreateTable } from './create-table.use-case';
 
 describe('Test create-table.use-case.ts', () => {
     test('Should create table with default values', () => {
